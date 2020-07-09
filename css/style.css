@@ -2,5 +2,56 @@ body {
     font-family: open-sans, sans-serif;
     font-weight: 300;
     font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+    min-width: 768px;
     max-width: 1920px;
+}
+
+
+nav {
+    height: 100px;
+    margin: 0 69px;
+    border-bottom: 1px solid white;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 100px;
+}
+
+.home {
+    background-image: url(../img/background.jpg);
+    min-height: 1080px;
+}
+
+.home a {
+    color: #dddedf;
+    font-size: 24px;
+}
+
+.menu {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 34px;
+    margin-left: 22px;
+    margin-top: 30px;
+}
+
+.home img {
+    left: 31.5%;
+    position: absolute;
+    top: 41%;
 }
