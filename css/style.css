@@ -48,6 +48,24 @@ ul {
     height: 100px;
 }
 
+.scroll,
+.scroll1,
+.scroll2 {
+    font-size: 18px;
+    color: #F1F1F1;
+    height: 115px;
+    margin-top: 62px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/Double%20Arrow.png);
+
+}
+
+.scroll1 {
+    position: relative;
+    top: 789px;
+}
+
 .home {
     background-image: url(../img/background.jpg);
     min-height: 1080px;
@@ -100,6 +118,7 @@ ul {
 
 .text {
     text-align: left;
+    min-height: 655px;
 }
 
 .article {
