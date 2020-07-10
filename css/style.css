@@ -152,7 +152,7 @@ ul {
 
 /*---footer---*/
 .sec_footer {
-    min-height: 1080px;
+    min-height: 980px;
 }
 
 .sec_footer nav {
@@ -166,11 +166,15 @@ ul {
 
 .title {
     font-size: 30px;
+    margin: 0;
+    margin-top: 52px;
 }
 
 .content {
     font-size: 60px;
     font-weight: 100;
+    margin: 0;
+    margin-top: 23px;
 }
 
 .contact {
@@ -179,15 +183,18 @@ ul {
 }
 
 .social_btn {
-    width: 46px;
-    height: 49px;
-    background-color: #81b3d2;
-    float: right;
-    margin: auto;
+    width: 57px;
+    height: 57px;
+    display: inline-block;
+    margin: 0 10px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    margin-right: 3px;
 
+
+}
+
+.footer_social {
+    margin-top: 25px;
 }
 
 .social_btn_tw {
@@ -196,11 +203,6 @@ ul {
     background-image: url(../img/twitter.png);
 }
 
-.social_btn_tw:active {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url(../img/twitter_active.png);
-}
 
 .social_btn_fb {
     background-position: center;
@@ -208,20 +210,24 @@ ul {
     background-image: url(../img/facebook.png);
 }
 
-.social_btn_fb:active {
+
+.social_btn_inst {
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(../img/facebook_active.png);
+    background-image: url(../img/Instagram.png);
 }
 
-.social_btn_youtube {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url(../img/youtube.png);
+
+/*-footer-*/
+footer {
+    min-height: 100px;
+    border-top: 1px solid #E6E6E6;
+    margin: 0 67px;
+    text-align: center;
 }
 
-.social_btn_youtube:active {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url(../img/youtube_active.png);
+footer p {
+    font-weight: 100;
+    font-size: 18px;
+    color: #BEBEBE;
 }
