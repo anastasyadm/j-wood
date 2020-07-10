@@ -149,3 +149,79 @@ ul {
     width: 279px;
     height: 250px;
 }
+
+/*---footer---*/
+.sec_footer {
+    min-height: 1080px;
+}
+
+.sec_footer nav {
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.sec_footer a {
+    color: #E6E6E6;
+    font-size: 24px;
+}
+
+.title {
+    font-size: 30px;
+}
+
+.content {
+    font-size: 60px;
+    font-weight: 100;
+}
+
+.contact {
+    min-height: 477px;
+    margin-top: 195px;
+}
+
+.social_btn {
+    width: 46px;
+    height: 49px;
+    background-color: #81b3d2;
+    float: right;
+    margin: auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-right: 3px;
+
+}
+
+.social_btn_tw {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/twitter.png);
+}
+
+.social_btn_tw:active {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/twitter_active.png);
+}
+
+.social_btn_fb {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/facebook.png);
+}
+
+.social_btn_fb:active {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/facebook_active.png);
+}
+
+.social_btn_youtube {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/youtube.png);
+}
+
+.social_btn_youtube:active {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/youtube_active.png);
+}
