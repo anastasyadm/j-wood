@@ -22,8 +22,7 @@ a {
     text-transform: uppercase;
     text-align: center;
     margin: 0 auto;
-    min-width: 768px;
-    max-width: 1920px;
+    min-width: 1920px;
 }
 
 h1 {
@@ -70,7 +69,7 @@ ul {
 .home img {
     left: 31.5%;
     position: absolute;
-    top: 41%;
+    top: 26%;
 }
 
 /*---about me ---*/
@@ -96,6 +95,19 @@ ul {
 
 .about_me img {
     float: left;
+    margin-right: 53px;
+}
+
+.text {
+    text-align: left;
+}
+
+.article {
+    font-size: 24px;
+    min-width: 677, 84px;
+    min-height: 367, 32px;
+    line-height: 50px;
+    text-transform: capitalize
 }
 
 /*---portfolio---*/
@@ -115,12 +127,15 @@ ul {
 
 .gallery {
     padding-top: 24px;
+    min-width: 1592px;
 }
 
 .row1 img:not(:last-child) {
     margin: 0;
     float: left;
     margin-right: 49px;
+    width: 279px;
+    height: 250px;
 }
 
 .row2 {
@@ -131,4 +146,6 @@ ul {
     margin: 0;
     float: left;
     margin-right: 49px;
+    width: 279px;
+    height: 250px;
 }
